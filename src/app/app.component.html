@@ -1,6 +1,11 @@
 
 <md-toolbar>
   <p>Made Simple Group KPIs and Drivers</p>
+
+  <div class="nav-right">
+  <my-date-range-picker [options]="myDateRangePickerOptions"
+   (dateRangeChanged)="onDateRangeChanged($event)"></my-date-range-picker>
+  </div>
 </md-toolbar>
 
 <md-tab-group>
@@ -25,6 +30,10 @@
   </md-tab>
 </md-tab-group>
 
+Basic: {{ basic }}
+Risk-free: {{ riskfree }}
 
+{{ startString }}
+{{ endString }}
 
 <router-outlet></router-outlet>

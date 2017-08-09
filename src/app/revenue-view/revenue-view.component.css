@@ -1,7 +1,7 @@
 
 
 .brief {
-    background-color: #c7e8f2;
+    background-color: #e6edf2;
     width: 16%;
     float: left;
     margin-left: 20px;
@@ -10,13 +10,17 @@
 }
 
 .chart1 {
-    width: 40%;
+    width: 42%;
     float: left;
     margin-left: 20px;
 }
 
 .nchange {
     color: #f3464a;
+}
+
+.pchange {
+    color: #499a50;
 }
 
 h2, h3, p {

@@ -7,23 +7,43 @@
 <md-card class="brief">
       <h3>CMS Site Revenue</h3>
       <h2>£342,226</h2>
-      <p class="nchange"> -3.89% </p>
+      <p class="nchange"> -1.83% </p>
 </md-card>
 <md-card class="brief">
       <h3>Package Revenue</h3>
       <h2>£136,890</h2>
-      <p class="nchange"> -3.89% </p>
+      <p class="pchange"> 2.84% </p>
 </md-card>
 <md-card class="brief">
       <h3>Renewal Revenue</h3>
       <h2>£68,445</h2>
-      <p class="nchange"> -3.89% </p>
+      <p class="nchange"> -0.13% </p>
 </md-card>
 <md-card class="brief">
       <h3>Wholesale Revenue</h3>
       <h2>£69,342</h2>
-      <p class="nchange"> -3.89% </p>
+      <p class="pchange"> 7.65% </p>
 </md-card>
+
+<md-card class="chart1">
+<div class="row">
+  <div class="col-md-6">
+    <div style="display: block;">
+    <canvas baseChart width="400" height="200"
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [colors]="lineChartColors"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+    </div>
+  </div>
+</div>
+</md-card>
+
+<!--
 <md-card class="chart1">
       <div style="display: block">
       <canvas baseChart
@@ -36,3 +56,4 @@
 </md-card>
     <h1>Some tab content</h1>
     <p>...</p>
+-->
