@@ -3,7 +3,23 @@
 </h1>
 
 <md-tab-group>
-  <md-tab label="Revenue">
+<md-tab label="Revenue">
+    <br>
+    <md-card class="brief">
+      <h3>Revenue</h3>
+      <h2>£770,011</h2>
+      <p class="nchange"> -3.89% </p>
+    </md-card>
+    <md-card class="chart1">
+      <div style="display: block">
+      <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </md-card>
     <h1>Some tab content</h1>
     <p>...</p>
   </md-tab>
@@ -24,5 +40,7 @@
     <p>...</p>
   </md-tab>
 </md-tab-group>
+
+
 
 <router-outlet></router-outlet>
