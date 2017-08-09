@@ -1,0 +1,38 @@
+<br>
+<md-card class="brief">
+      <h3>Gross Revenue</h3>
+      <h2>£770,011</h2>
+      <p class="nchange"> -3.89% </p>
+</md-card>
+<md-card class="brief">
+      <h3>CMS Site Revenue</h3>
+      <h2>£342,226</h2>
+      <p class="nchange"> -3.89% </p>
+</md-card>
+<md-card class="brief">
+      <h3>Package Revenue</h3>
+      <h2>£136,890</h2>
+      <p class="nchange"> -3.89% </p>
+</md-card>
+<md-card class="brief">
+      <h3>Renewal Revenue</h3>
+      <h2>£68,445</h2>
+      <p class="nchange"> -3.89% </p>
+</md-card>
+<md-card class="brief">
+      <h3>Wholesale Revenue</h3>
+      <h2>£69,342</h2>
+      <p class="nchange"> -3.89% </p>
+</md-card>
+<md-card class="chart1">
+      <div style="display: block">
+      <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+      </div>
+</md-card>
+    <h1>Some tab content</h1>
+    <p>...</p>

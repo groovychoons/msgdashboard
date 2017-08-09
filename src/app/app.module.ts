@@ -8,10 +8,12 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RevenueViewComponent } from './revenue-view/revenue-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RevenueViewComponent
   ],
   imports: [
     BrowserModule,

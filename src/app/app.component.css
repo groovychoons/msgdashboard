@@ -3,23 +3,8 @@
     text-align: center;
 }
 
-.brief {
-    background-color: #c7e8f2;
-    width: 20%;
-    float: left;
-}
-
-.chart1 {
-    width: 40%;
-    float: left;
-    margin-left: 20px;
-}
-
-.nchange {
-    color: #f3464a;
-}
-
-h2 {
-   line-height: 10px;
-   padding: 0px;
+md-toolbar {
+    background-color: #292f3a;
+    color: white;
+    font-weight: 400;
 }

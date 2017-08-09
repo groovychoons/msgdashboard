@@ -1,0 +1,25 @@
+
+
+.brief {
+    background-color: #c7e8f2;
+    width: 16%;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chart1 {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.nchange {
+    color: #f3464a;
+}
+
+h2, h3, p {
+   margin: 0px;
+}
+
